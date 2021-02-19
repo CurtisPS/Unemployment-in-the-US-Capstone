@@ -25,8 +25,6 @@ Macro of States MoM with comparison2000-2019 and Macro of Industry MoM with comp
 
 Industry2000-2019.xlsx and Industry2000-2019.csv: Industry data edited to only be from 2000-2019. Used in the Capstone Complete.R file.
 
-States MoM for R2.csv: This is just the “States MoM Calculations” that was put in csv format for R for anyone who wants to run the R code for the dendrogram on their own for the 2000-2019 data only.
-
 Master Correlation: This is the correlation coefficient taken from R for data between the S&P 500, overall US Unemployment data, all states, and all 17 industries from the data from 2000-2019. How this was created can be found in the “Capstone Complete” R file.
 
 Capstone Complete.R : This is the R file that contains everything I did in one file. I have broken it down into sections and lines
