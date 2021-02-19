@@ -1,17 +1,30 @@
 # Unemployment-in-the-US-Capstone
+
 Capstone project for the Data Science Specialist Track at Bay Path University
+
 All unemployment data was collected from the U.S. Bureau of Labor Statistics. S&P 500 data was collected from Yahoo! Finance.
+
 Description of files
+
 Original data files across full time frames that were preprocessed and condensed for the final analysis.
+
 All States Percent Date: This file contains the original data for all the states across the full timeframe, as well as some minor preprocessing to get more specific unemployment percentages for the states as well as the US as a whole. This is saved as a macro enabled workbook. The code for the preprocessing can be found there.
+
 SandP 500 Month: This file is the original data for the monthly closing price of the S&P 500 across the full timeframe.
+
 Industry: This file is the original data for unemployment for 17 different industries in the US for the full timeframe. More granular data than just the percent is not available.
+
 States MoM Calculations: This file shows the calculations for the month over month change for all the states and the United States as a whole.
+
 States MoM for R.csv: This is just the “States MoM Calculations” that was put in csv format for R for anyone who wants to run the R code on their own.
 The remainder of these files have had the timeframe reduced to at least 2000-2019. More details are provided for each file. 
+
 MasterData2000-2019: All data (S&P 500 and US, State, and Industry Unemployment) from 2000-2019. Month over month data was also calculated here by taking each month, subtracting from the previous month, and dividing by the previous month. The structure of the columns is row 1: Date, 2: UNITED STATES, 3:S&P 500, 4-55: States, 56-72: Industry, 73-77:States by region.
+
 Macro of States MoM with comparison2000-2019: This macro creates a Euclidian distance matrix for each state and the US as a whole. The higher the number on the final tab, the more dissimilar the two pieces are. This is incredibly useful for seeing which states are most dissimilar to each other and the US overall.
+
 Industry2000-2019.xlsx and Industry2000-2019.csv: Industry data edited to only be from 2000-2019. Used in the Capstone Complete.R file.
+
 States MoM for R2.csv: This is just the “States MoM Calculations” that was put in csv format for R for anyone who wants to run the R code for the dendrogram on their own for the 2000-2019 data only.
 
 Master Correlation: This is the correlation coefficient taken from R for data between the S&P 500, overall US Unemployment data, all states, and all 17 industries from the data from 2000-2019. How this was created can be found in the “Capstone Complete” R file.
