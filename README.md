@@ -28,46 +28,88 @@ Industry2000-2019.xlsx and Industry2000-2019.csv: Industry data edited to only b
 States MoM for R2.csv: This is just the “States MoM Calculations” that was put in csv format for R for anyone who wants to run the R code for the dendrogram on their own for the 2000-2019 data only.
 
 Master Correlation: This is the correlation coefficient taken from R for data between the S&P 500, overall US Unemployment data, all states, and all 17 industries from the data from 2000-2019. How this was created can be found in the “Capstone Complete” R file.
+
 Capstone Complete.R : This is the R file that contains everything I did in one file. I have broken it down into sections and lines
+
 Overall US Unemployment Analysis (lines 1-211):
+
 Lines 1-62: Data analysis and visualization
+
 Lines 64-121: Basic forecasting methods
+
 Lines 122-127: Check if Box-Cox transformation is worthwhile. It isn’t as there is no constant in the data.
+
 Lines 128-178: Additional forecasting methods. ARIMA turns out the best.
+
 Lines 179-190: Check for data differencing and seasonality and replot.
+
 Lines 190-211: ARIMA modeling.
+
 Industry Decomposition and Visuals
+
 	Lines 220-276: Create time series datasets.
+	
 Lines 277-429: Decompose each time series, view seasonal data, and see if it should be differenced normally or for seasonal differencing.
+
 Industry Dendrogram
+
 	Lines 435-457
+	
 State Dendrogram
+
 	Lines 461-482
+	
 Correlation Coefficients
+
 Lines 485-500: Reads in all the data on one sheet and extracts correlation coefficients. This will also save the code to your desired location.
+
 PCA Analysis
+
 	Lines 505-529: PCA for all data
+	
 	Lines 530-557: PCA for states
+	
 	Lines 558-581: PCA for industry
+	
 	Lines 582-604: PCA for region
+	
 Correlation Coefficients for Region and Industry
+
 	Lines 605-626: Create correlation plot and dot plot for region and industry
+	
 
 Complete Industry Name	                                   Abbreviation
+
 Nonagriculture Industries----------------------------------Non-Agriculture
+
 Mining, quarrying, and oil and gas extraction--------------Mining
+
 Construction-----------------------------------------------Construction
+
 Manufacturing----------------------------------------------Manufacturing
+
 Durable Goods Manufacturing--------------------------------Durable Goods
+
 Nondurable Goods Manufacturing-----------------------------Nondurable Goods
+
 Wholesale and retail trade---------------------------------Wholesale
+
 Transportation and Utilities-------------------------------Transport
+
 Information------------------------------------------------Info
+
 Financial Activities---------------------------------------Finance
+
 Professional and Business Services-------------------------Professional Services
+
 Education and Health Services------------------------------Health and Edu
+
 Leisure and Hospitality------------------------------------Leisure
+
 Other Services---------------------------------------------Other
+
 Agriculture, forestry, fishing, and hunting----------------Agriculture
+
 Government Wage and Salary Workers-------------------------Government
+
 Self-employed unincorporated, and unpaid family workers----Self-Employed
