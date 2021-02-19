@@ -7,6 +7,7 @@ All unemployment data was collected from the U.S. Bureau of Labor Statistics. S&
 Please refer to the YouTube link for a presenation on the data contained in this module and the link to the Tableau visualizations.
 
 YouTube:
+
 Tableau:
 
 NOTE: Files titled "Macro of Industry MoM with comparions2000-2019", "Macro of States MoM with comparions2000-2019", "Master Correlation", and "Master CorrelationRI" are the files to be used to explore the data and should be used in conjunction with the Tableau visualizations. All other files may be used to review my code and calculations.
