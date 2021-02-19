@@ -21,7 +21,7 @@ The remainder of these files have had the timeframe reduced to at least 2000-201
 
 MasterData2000-2019: All data (S&P 500 and US, State, and Industry Unemployment) from 2000-2019. Month over month data was also calculated here by taking each month, subtracting from the previous month, and dividing by the previous month. The structure of the columns is row 1: Date, 2: UNITED STATES, 3:S&P 500, 4-55: States, 56-72: Industry, 73-77:States by region.
 
-Macro of States MoM with comparison2000-2019: This macro creates a Euclidian distance matrix for each state and the US as a whole. The higher the number on the final tab, the more dissimilar the two pieces are. This is incredibly useful for seeing which states are most dissimilar to each other and the US overall.
+Macro of States MoM with comparison2000-2019 and Macro of Industry MoM with comparison2000-2019: This macro creates a Euclidian distance matrix for each state and the US as a whole, or the industries in the US. The higher the number on the final tab, the more dissimilar the two pieces are. This is incredibly useful for seeing which states and industries are most dissimilar to each other and the US overall.
 
 Industry2000-2019.xlsx and Industry2000-2019.csv: Industry data edited to only be from 2000-2019. Used in the Capstone Complete.R file.
 
