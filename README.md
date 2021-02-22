@@ -39,18 +39,18 @@ Capstone Complete.R : This is the R file that contains everything I did in one f
 
 Overall US Unemployment Analysis (lines 1-211):
 
-Lines 1-62: Data analysis and visualization
+	Lines 1-62: Data analysis and visualization
 
-Lines 64-121: Basic forecasting methods
+	Lines 64-121: Basic forecasting methods
 
-Lines 122-127: Check if Box-Cox transformation is worthwhile. It isn’t as there is no constant in the data.
-
-Lines 128-178: Additional forecasting methods. ARIMA turns out the best.
-
-Lines 179-190: Check for data differencing and seasonality and replot.
-
-Lines 190-211: ARIMA modeling.
-
+	Lines 122-127: Check if Box-Cox transformation is worthwhile. It isn’t as there is no constant in the data.
+	
+	Lines 128-178: Additional forecasting methods. ARIMA turns out the best.
+	
+	Lines 179-190: Check for data differencing and seasonality and replot.
+	
+	Lines 190-211: ARIMA modeling.
+	
 Industry Decomposition and Visuals
 
 	Lines 220-276: Create time series datasets.
@@ -69,19 +69,32 @@ Correlation Coefficients
 
 Lines 485-500: Reads in all the data on one sheet and extracts correlation coefficients. This will also save the code to your desired location.
 
+Correlation Coefficients across states, industries, and states and industry combined
+
+	Lines 501-521
+	
 PCA Analysis
 
-	Lines 505-529: PCA for all data
+	Lines 526-546: PCA for all data
 	
-	Lines 530-557: PCA for states
+	Lines 548-574: PCA for states
 	
-	Lines 558-581: PCA for industry
+	Lines 577-598: PCA for industry
 	
-	Lines 582-604: PCA for region
+	Lines 600-621: PCA for region
 	
 Correlation Coefficients for Region and Industry
 
-	Lines 605-626: Create correlation plot and dot plot for region and industry
+	Lines 623-645: Create correlation plot and dot plot for region and industry
+	
+PCA revisited for Region and Industry combined
+
+	Lines 647-668
+	
+Heat Maps for All Data
+
+	Lines 671-700
+
 	
 
 Complete Industry Name	                                   Abbreviation
